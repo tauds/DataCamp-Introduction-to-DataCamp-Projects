@@ -1,0 +1,6 @@
+# SQL Query
+result = %sql SELECT * FROM countries;
+
+# To pandas DataFrame
+df = result.DataFrame()
+df.info()
