@@ -1,0 +1,9 @@
+# Connect to database
+from sqlalchemy import create_engine
+engine = create_engine("postgresql:///countries");
+
+# Query database
+result = engine.execute("SELECT * FROM countries;")
+
+# Display column names
+result.keys()
