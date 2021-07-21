@@ -1,0 +1,2 @@
+# Query the database
+%sql SELECT * FROM countries WHERE name = 'Belgium';
