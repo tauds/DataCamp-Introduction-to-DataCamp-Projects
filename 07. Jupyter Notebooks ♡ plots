@@ -1,0 +1,5 @@
+# Setting up inline plotting using Jupyter Notebook "magic"
+%matplotlib inline
+
+# Plotting number of countries in each continent
+df.continent.value_counts().plot(kind='bar')
